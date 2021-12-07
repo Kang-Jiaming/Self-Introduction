@@ -1,0 +1,21 @@
+body {
+   background-image: url(/images/blur_Inazuma_City.png);
+}
+
+
+.description {
+    border-width: 960px;
+    outline: 0.5rem solid;
+    border-radius: 15px;
+    font: bold 1rem sans-serif; 
+    margin: 3rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+  }
+
+.paimon {
+    margin-left: 50px;
+}
