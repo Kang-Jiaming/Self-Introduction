@@ -1,0 +1,115 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(/images/Inazuma_City.png);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+table {
+  border-collapse: collapse;
+  position:absolute;
+  top:40%;
+  left:27%;
+  border: 2px solid rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+td,
+th {
+  padding: 10px 20px;
+}
+
+thead {
+  font-weight: bold;
+  color: white;
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+}
+
+td {
+  text-align: center;
+  color: white;
+}
+
+caption {
+  padding: 10px;
+}
+/* 
+
+.strikeout {
+  line-height: 1em;
+  position: relative;
+}
+.strikeout::after {
+  border-bottom: 0.125em solid black;
+  content: "";
+  left: 0;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%;
+} */
+
+
+.pf_photo {
+  position: absolute;
+  top: 350px;
+  left: 400px;
+  border-radius:200px;
+}
+
+.splitLine {
+  height: 1px;
+  width: 500px;
+  border-top: 10x solid #e5e5e5;
+}
+ 
+
+.cr {
+  position:absolute;
+  top:95%;
+  font-size: small;
+}
+
+
+
+.chart114514 {
+  text-align: center;
+  font-size: small;
+  color: gray;
+  position:absolute;
+  top:50%;
+  left:45%;
+}
+
+.links {
+  text-aLign: center;
+  border-radius: 20px;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size:20px;
+  text-decoration: none;
+}
+
+.blur {    
+     -moz-filter: blur(10px);
+      -ms-filter: blur(10px);    
+          filter: blur(10px);    
+}
