@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url(/images/Inazuma_City.png);
+  background-image: url(/images/blur_Inazuma_City.png);
   background-size: cover;
 }
 
@@ -77,9 +77,13 @@ caption {
  
 
 .cr {
-  position:absolute;
-  top:95%;
-  font-size: small;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  color:white;
+  font-size: large;
+  font-weight: bold;
 }
 
 
@@ -94,22 +98,89 @@ caption {
 }
 
 .links {
-  text-aLign: center;
-  border-radius: 20px;
-  width: 0px;
-  height: 0px;
-  margin: auto;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 45%;
+  left: 60%;
   right: 0;
   bottom: 0;
-  font-size:20px;
-  text-decoration: none;
+  display:flex;
+  flex-direction: column;
 }
 
 .blur {    
      -moz-filter: blur(10px);
       -ms-filter: blur(10px);    
           filter: blur(10px);    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    display:inline;
+    float:left;
+}
+   
+a {
+    display:block;
+    width:65px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff8100;
+}
+
+
+.description {
+  border-width: 960px;
+  outline: 0.5rem solid;
+  border-radius: 15px;
+  font: bold 1rem sans-serif; 
+  margin: 3rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+}
+
+.paimon {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: black;
+  border-radius: 10px;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;  
+  text-align: center;
 }
