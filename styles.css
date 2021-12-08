@@ -67,6 +67,7 @@ caption {
   top: 350px;
   left: 400px;
   border-radius:200px;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 .splitLine {
@@ -165,7 +166,6 @@ li a:hover {
   outline-offset: 0.5rem;
   text-align: center;
   color: rgb(255, 255, 255);
-  z-index: 10;
 }
 
 .paimon {
@@ -183,4 +183,13 @@ li a:hover {
   background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
   background-blend-mode: screen;  
   text-align: center;
+}
+
+.blog-content {
+  font: bold 1rem sans-serif; 
+  margin: 3rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
