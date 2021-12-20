@@ -3,22 +3,33 @@ html {
 }
 
 body {
-  background-image: url(images/blur_Inazuma_City.png);
+  /* background-image: url(images/blur_Inazuma_City.jpg); */
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   background-size: cover;
+  margin: 0px;
+  height: 100vh; 
+  width: 100vw
+}
+
+element.style {
+  height: 100vh;
+  padding: 0;
 }
 
 h1 {
   font-size: 300%;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: black;
 }
+
+
 
 table {
   border-collapse: collapse;
   position:absolute;
   top:40%;
   left:27%;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid black;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -30,16 +41,16 @@ th {
 
 thead {
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 th {
-  background-color: rgb(255, 255, 255);
+  background-color: black(255, 255, 255);
 }
 
 td {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 caption {
@@ -62,13 +73,6 @@ caption {
 } */
 
 
-.pf_photo {
-  position: absolute;
-  top: 350px;
-  left: 400px;
-  border-radius:200px;
-  box-shadow: 5px 5px 5px #888888;
-}
 
 .splitLine {
   height: 1px;
@@ -82,7 +86,7 @@ caption {
   justify-content: center;
   align-items: center;
   margin-top: 400px;
-  color:white;
+  color:black;
   font-size: large;
   font-weight: bold;
 }
@@ -98,15 +102,6 @@ caption {
   left:45%;
 }
 
-.links {
-  position: absolute;
-  top: 45%;
-  left: 60%;
-  right: 0;
-  bottom: 0;
-  display:flex;
-  flex-direction: column;
-}
 
 .blur {    
      -moz-filter: blur(10px);
@@ -161,11 +156,11 @@ li a:hover {
   outline: 0.5rem solid;
   border-radius: 15px;
   font: bold 1rem sans-serif; 
-  margin: 3rem;
+  margin: 15rem;
   padding: 1rem;
   outline-offset: 0.5rem;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .paimon {
@@ -174,22 +169,17 @@ li a:hover {
   margin-bottom: 10px;
 }
 
-.footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  color: black;
-  border-radius: 10px;
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-  background-blend-mode: screen;  
-  text-align: center;
-}
-
 .blog-content {
   font: bold 1rem sans-serif; 
   margin: 3rem;
   padding: 1rem;
   outline-offset: 0.5rem;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: black;
+}
+
+.h1-left {
+  font-size: 300%;
+  text-align: left;
+  color: black;
 }

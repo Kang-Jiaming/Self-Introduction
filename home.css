@@ -1,0 +1,140 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    /* background-image: url(images/blur_Inazuma_City.jpg); */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-size: cover;
+    margin: 0px;
+    padding: 0;
+    height: 100vh; 
+    width: 100vw
+  }
+  
+  element.style {
+    height: 100vh;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 300%;
+    text-align: center;
+    color: black;
+  }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    display:inline;
+    float:left;
+}
+   
+a {
+    display:block;
+    width:65px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff8100;
+}
+
+
+.pf_photo {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    border-radius:200px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+
+
+.links {
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    border-radius: 10px;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;  
+    text-align: center;
+  }
+  
+
+  .search-box {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+.search-btn {
+    color: #ede9e7;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+    
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
+    width: 240px;
+    padding: 0 6px;
+}
+
