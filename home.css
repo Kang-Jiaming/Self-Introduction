@@ -6,7 +6,7 @@ html {
     /* background-image: url(images/blur_Inazuma_City.jpg); */
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     background-size: cover;
-    margin: 0px;
+    margin: 0;
     padding: 0;
     height: 100vh; 
     width: 100vw
@@ -17,10 +17,12 @@ html {
     padding: 0;
   }
   
-  h1 {
+  .heading1 {
     font-size: 300%;
     text-align: center;
     color: black;
+    font-weight: bold;
+    margin-bottom: 300px;
   }
 
 
@@ -64,46 +66,12 @@ li a {
 li a:hover {
   background-color: #d5d3d3;
 }
-
-
-.pf_photo {
-    position: absolute;
-    top: 350px;
-    left: 400px;
-    border-radius:200px;
-    box-shadow: 5px 5px 5px #888888;
-  }
-
-
-.links {
-  position: absolute;
-  top: 92%;
-  left: 10%;
-  right: 10%;
-  bottom: 0;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  z-index: 10;
-}
-
-
-.footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    color: black;
-    border-radius: 10px;
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: screen;  
-    text-align: center;
-  }
   
 
   .search-box {
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background: #2f3640;
     height: 40px;
@@ -140,3 +108,69 @@ li a:hover {
     padding: 0 6px;
 }
 
+
+footer{
+  background: #f1f1f1;
+  padding: 90px 0;
+}
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.pf_photo{
+  width: 180px;
+  border-radius:200px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 53%);
+  margin-bottom: 30px;
+}
+
+.right h1, 
+.acknow h1{
+  font-size: 26px;
+}
+
+.acknow {
+  font-size: 18px;
+  color:#2f3640;
+
+}
+
+.acknow-text {
+  line-height: 0.1px;
+  margin-top: 5px;
+}
+.border{
+  width: 100px;
+  height: 4px;
+  background: #2f3640;
+}
+
+.copyright {
+  font-size: small;
+}
+
+.email{
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #2f3640;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+  text-decoration: none;
+  width: auto;
+  margin-bottom: 20px;
+}
+.email:hover{
+  opacity: .7;
+}
