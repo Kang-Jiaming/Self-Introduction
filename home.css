@@ -174,3 +174,10 @@ footer{
 .email:hover{
   opacity: .7;
 }
+
+.rickastley{
+  display: none;
+}
+.never-gonna-give-you-up{
+  display:block !important;
+}
