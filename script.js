@@ -7,23 +7,6 @@ document.onkeyup=(e) => {
 
 if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
     alert('目前未适配移动设备，请使用电脑端访问')
-    closeCurrentPage()
+    window.open("https://baidu.com")
   }
 
-
-function closeCurrentPage() {
-	const ua = window.navigator.userAgent;
-	if (ua.indexOf('MSIE') > 0) {
-		if (ua.indexOf('MSIE 6.0') > 0) {
-			window.opener = null;
-			window.close();
-		} else {
-			window.open('', '_top');
-			window.top.close();
-		}
-	} else {
-		window.opener = null;
-		window.open('', '_self', '');
-		window.close();
-	}
-}
