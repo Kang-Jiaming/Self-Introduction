@@ -65,6 +65,7 @@
 - Hutao Paimon [https://www.pixiv.net/artworks/86813921][8]
 - GitHub Logo [https://github.com/logos][9]
 - External links style[shields.io][10]
+- Awesome CSS Search Box Using Only HTML & CSS [https://www.youtube.com/watch?v=v1PeTDrw6OY&t=41s][11]
 
 [1]:	https://www.runoob.com/css/css-tutorial.html
 [2]:	https://www.runoob.com/html/html-tutorial.html
@@ -76,3 +77,4 @@
 [8]:	https://www.pixiv.net/artworks/86813921
 [9]:	https://github.com/logos
 [10]:	shields.io
+[11]:	https://www.youtube.com/watch?v=v1PeTDrw6OY&t=41s
