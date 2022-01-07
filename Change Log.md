@@ -21,10 +21,8 @@
 - 新增按钮和多页面设计
 - 新增一些个人介绍内容
 - 引入了多 CSS 文件
-	  
 ### 调整&修复
 - 项目工程文件进行了整理，对部分目标进行了重新索引
-	  
 ## 2.2.0
 ### 新增
 - 顶部导航栏和底栏
@@ -43,7 +41,7 @@
 ### 调整&修复
 - 图片尺寸过大的问题
 - badge 不和谐的问题
-- 部分外部链接增加了 target="_blank" 属性
+- 部分外部链接增加了 target="\_blank" 属性
 ### 已知问题
 - 未适配窄屏设备
 
@@ -55,3 +53,26 @@
 - 博客文章列表
 - 修复了底栏乱飘的问题
 - 视频剪辑页面布局调整
+
+# 外部资源引用声明
+- 菜鸟教程 - CSS教程 [https://www.runoob.com/css/css-tutorial.html][1]
+- 菜鸟教程 - html 教程 [https://www.runoob.com/html/html-tutorial.html][2]
+- 菜鸟教程 -javascript 教程 [https://www.runoob.com/js/js-tutorial.html][3]
+- MDN Web Docs [https://developer.mozilla.org/zh-CN/][4]
+- HTML /CSS 制作自适应网页底栏 [https://www.bilibili.com/video/BV1EJ411E7gp][5]
+- Background color [https://webgradients.com/][6]
+- 恶臭数字论证器 [https://lab.magiconch.com/homo/][7]
+- Hutao Paimon [https://www.pixiv.net/artworks/86813921][8]
+- GitHub Logo [https://github.com/logos][9]
+- External links style[shields.io][10]
+
+[1]:	https://www.runoob.com/css/css-tutorial.html
+[2]:	https://www.runoob.com/html/html-tutorial.html
+[3]:	https://www.runoob.com/js/js-tutorial.html
+[4]:	https://developer.mozilla.org/zh-CN/
+[5]:	https://www.bilibili.com/video/BV1EJ411E7gp
+[6]:	https://webgradients.com/
+[7]:	https://lab.magiconch.com/homo/
+[8]:	https://www.pixiv.net/artworks/86813921
+[9]:	https://github.com/logos
+[10]:	shields.io
