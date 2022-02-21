@@ -398,3 +398,9 @@ footer{
 .blog-list-bg:hover {
   color: #434343  
 }
+
+.copyright-gacha {
+  text-align: center;
+  font-size: small;
+  margin-bottom: 10px;
+}
